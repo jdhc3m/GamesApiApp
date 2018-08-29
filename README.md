@@ -12,3 +12,4 @@ RecyclerView -> It was used to setup the list
 
 Things That I would change if I have more time:
   Use RxJava and Retrofit, I decided to use Simple Json for the reason of the documentation of IGBD is on that model.
+  Load data by pagination.
