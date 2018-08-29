@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_square_stroke_gray"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gamesItemListLl"
+    android:gravity="center"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="4dp"
+    android:padding="@dimen/vertical_margin_small"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/vertical_margin_large"
+        app:cardCornerRadius="6dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/gamesImageIv"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/gamesNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/color_black"
+        android:gravity="center"
+        tools:text="Game Name"/>
+
+
+</LinearLayout>
